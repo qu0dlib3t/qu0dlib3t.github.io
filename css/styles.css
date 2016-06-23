@@ -1,0 +1,160 @@
+
+/*Navbar*/
+#left-frame {
+  padding: 0;
+}
+.navbar-fixed-left {
+  height: 100%;
+  position: fixed;
+  border-width: 0px;
+  border-radius: 0px;
+  color: #adc3d9;
+  font-family: 'Amatica SC', cursive;
+  font-size: 2.5vw;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px #223240;
+}
+.main-nav .navbar-default {
+  background-color: #23638f;
+  height: 100vh;
+}
+#bs-example-navbar-collapse-1 .navbar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#bs-example-navbar-collapse-1 .navbar li {
+  flex-grow: 1;
+}
+
+/*Content Body*/
+#content-body {
+  padding: 0px;
+}
+/*Home Section*/
+#home {
+  background-image: url('../img/storm.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+.jumbotron {
+  border-radius: 8px;
+}
+.jumbotron {
+  margin-top: 10%;
+  background-color: rgba(103,147,191,0.4);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fade {
+   opacity: 1;
+   transition: opacity 1.5s ease-in-out;
+   -moz-transition: opacity 1.5s ease-in-out;
+   -webkit-transition: opacity 1.5s ease-in-out;
+   animation-fill-mode: backwards;
+   }
+.fade:hover {
+  opacity: 0;
+}
+.jumbotron h2 {
+  font-family: 'Amatica SC', cursive;
+  font-size: 70px;
+  color: #adc3d9;
+}
+.jumbotron h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 100px;
+  font-weight: 100;
+  color: #adc3d9;
+  text-shadow: 5px 5px 5px #223240;
+}
+.jumbotron h3 {
+  font-family: 'Amatica SC', cursive;
+  font-size: 40px;
+  color: #adc3d9;
+}
+
+/* My Story Section*/
+#story {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(103,147,191,0.4);
+  background-size: cover;
+  border-radius: 8px;
+}
+.headline {
+  height: 15vh;
+  font-family: 'Bangers', cursive;
+  color: #adc3d9;
+  font-size: 80px;
+  text-shadow: 5px 5px 5px #223240;
+}
+#story p {
+  font-family: 'Amatica SC', cursive;
+  font-size: 40px;
+  color: #adc3d9;
+  line-height: 35px;
+  text-align: center;
+}
+.gear {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  padding-left: 10%;
+  z-index: -1;
+  position: absolute;
+  color: rgba(34,50,64,0.8);
+  font-size: 150px;
+}
+
+/*Past Work Section*/
+h2 {
+  height: 15vh;
+  font-family: 'Bangers', cursive;
+  color: #adc3d9;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #223240;
+}
+#work {
+  margin: 5%;
+  padding: 5%;
+  background-image: url(../img/metal_honeycomb.jpg);
+  min-height: 100vh;
+  border-radius: 8px;
+}
+#work h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 35px;
+  color: #adc3d9;
+  text-shadow: 5px 5px 5px #223240;
+}
+#work p {
+  font-family: 'Amatica SC', cursive;
+  font-size: 20px;
+  background-color: rgba(34,50,64,0.8);
+  color: #adc3d9;
+}
+
+/*Contact Me Section*/
+#contact_me .jumbotron {
+  background-image: url('../img/gridwiremesh.jpg');
+  background-size: cover;
+  min-height: 50vh;
+}
+#contact_me h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #adc3d9;
+  text-shadow: 5px 5px 5px #223240;
+}
+#contact_me ul {
+  list-style-type: none;
+}
+#contact_me li a{
+  padding: 0;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
