@@ -29,7 +29,7 @@
 
 /*Content Body*/
 #content-body {
-  padding: 0px;
+  padding: 5px;
 }
 /*Home Section*/
 #home {
@@ -125,7 +125,7 @@ h2 {
 }
 #work h1 {
   font-family: 'Bangers', cursive;
-  font-size: 35px;
+  font-size: 30px;
   color: #adc3d9;
   text-shadow: 5px 5px 5px #223240;
 }
@@ -134,6 +134,7 @@ h2 {
   font-size: 20px;
   background-color: rgba(34,50,64,0.8);
   color: #adc3d9;
+  border-radius: 8px;
 }
 
 /*Contact Me Section*/
